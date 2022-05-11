@@ -420,7 +420,7 @@ margin-right: -40PX;
 /* //////////////////////signinstyle////////////////////// */
 .login-div_log87{
     margin: 100px auto;
-    width: 350px;
+    width: 35%;
     background: url("../media/wallpaper22B.jpg");
     padding: 60px 7%;
     background-attachment: fixed;
@@ -518,7 +518,7 @@ margin-right: -40PX;
     background: url("../media/wall-roman-b.jpg");
     background-attachment:fixed;
     background-size: cover;
-    width: 350px;
+    width: 35%;
     margin: 100px auto;
     border: 2px solid black;
     padding: 60px 7%;
