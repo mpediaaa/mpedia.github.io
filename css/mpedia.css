@@ -306,13 +306,7 @@ margin-right: -40PX;
     border-bottom: 3px solid black;
 }
 /* ////////////////////////////complaints///////////////////////////////////////////// */
-.header-comp87 h2,h3{
-    animation: tran 10s ease-in;
 
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
 .header-comp87{
     margin: 30px 25% 30px;
     width: 50%;
@@ -2855,13 +2849,13 @@ display: inline;
     text-align: center;
     margin-bottom: 10px;
     }
-    h3{
+/*     h3{
       font-size: 34px;
       text-align: left;
       margin-bottom: 10px;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       color: brown;
-    }
+    } */
 
     .mosque{
       width: 48%;
@@ -2878,12 +2872,12 @@ display: inline;
     height: 500px;
     background-color: white;
     }
-    h3{
+/*     h3{
       font-size: 34px;
       text-align: left;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       color: brown;
-    }
+    } */
     .fourth167{
       width: 40%;
       line-height:30px;
@@ -2896,13 +2890,13 @@ display: inline;
       width: 600;
       background-color: white;
       }
-      h3{
+/*       h3{
         font-size: 34px;
         text-align: left;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: brown;
       }
-
+ */
       .mat7f1{
       float: lefts;
       }
@@ -2973,9 +2967,9 @@ display: inline;
         width: 140px;
         z-index: 999;
     }
-    ul li{
+/*     ul li{
       list-style: none;
-    }
+    } */
     .footer67 hr{
         border: 0px;
         height: 2px;
