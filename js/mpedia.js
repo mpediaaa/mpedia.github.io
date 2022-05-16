@@ -6,7 +6,7 @@ function themo87() {
     var momo =document.getElementsByClassName("info-about87")// form
     momo.classList.toggle("dark_mode665");
     var newstyle= document.getElementsByClassName('');
-
+    
     momo.style.border='1px solid #191919';
     var popups=document.getElementsByClassName('comp-form87');//popup
     popups.classList.toggle("darkopopo");
@@ -15,6 +15,27 @@ function themo87() {
     var popo=document.getElementsByClassName("comp-form87");
     popo.classList.toggle("darkopopo");
 }
+function signthemo87(){
+
+    var logmo=document.body;//signin
+    logmo.classList.toggle("darklog87");
+}
+function checkForm(form)
+{
+if(form.inputfield.value == "") {
+    alert("Error: Input is empty!");
+    form.inputfield.focus();
+    return false;
+}
+var re = /^[\w ]+$/;
+if(!re.test(form.inputfield.value)) {
+    alert("Error: Input contains invalid characters!");
+    form.inputfield.focus();
+    return false;
+    }
+    return true;
+}
+checkForm();
 function signthemo87(){
 
     var logmo=document.body;//signin
@@ -31,9 +52,10 @@ function signthemo87(){
         var images = ['wally-night.jpg', 'wallpaper22.jpg', 'waaall-night.jpg'];
         // I changed this section to just define the style attribute the best way I know how.
         document.getElementById('F2').setAttribute("style", "background-image: url(' + dir + images[randomCount] + ')");
-
+        
     }
 
+     bg();
 /////////////////////////////madiha//////////////////////////////////////
 // var sou = document.getElementById("foobar");
 // sou.play();
