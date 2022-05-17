@@ -2729,6 +2729,7 @@ display: inline;
     width: 100%;
 }
 .footer_bottom07 p{
+  margin-bottom: 0px;
   padding: 5px;
   font-size: 1.1em;
   font-weight: 400;
