@@ -164,8 +164,7 @@ function them67() {
 
 
   /////////////muhame yassssssssser//////////*/
-
-  var responsiveSlider = function() {
+var responsiveSlider = function() {
 
     var slider = document.getElementById("slider48");
     var sliderWidth = slider.offsetWidth;
@@ -175,7 +174,7 @@ function them67() {
     var prev = document.getElementById("prev");
     var next = document.getElementById("next");
 
-    window.addEventListener('resize', function() {
+    window.addEventListener("resize", function() {
     sliderWidth = slider.offsetWidth;
     });
 
@@ -206,20 +205,21 @@ function them67() {
 next.addEventListener("click", function() {
   nextSlide();
   });
-
+  
 prev.addEventListener("click", function() {
   prevSlide();
   });
-
+  
 setInterval(function() {
   nextSlide()
   }, 3000);
-
+  
   };
-
+  
 window.onload = function() {
-  responsiveSlider();
+  responsiveSlider();  
   }
+
 
 /*//////////////////asssssshhhhhhhhraaaaaaaaaaaaaaaf//////////////////*/
 function dark56(){
