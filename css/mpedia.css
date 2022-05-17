@@ -3322,6 +3322,10 @@ html {
     font-weight:bolder;
   }
 
+._mt48{
+padding: 30px;
+}
+
 .table48 a:link {
   color: rgb(0, 0, 0);
 }
