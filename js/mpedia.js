@@ -164,61 +164,61 @@ function them67() {
 
 
   /////////////muhame yassssssssser//////////*/
-var responsiveSlider = function() {
+var responsiveSlider = function mu48() {
 
-    var slider = document.getElementById("slider48");
-    var sliderWidth = slider.offsetWidth;
-    var slideList = document.getElementById("slideWrap48");
-    var count = 1;
-    var items = slideList.querySelectorAll("li").length;
-    var prev = document.getElementById("prev");
-    var next = document.getElementById("next");
+  var slider = document.getElementById("slider48");
+  var sliderWidth = slider.offsetWidth;
+  var slideList = document.getElementById("slideWrap48");
+  var count = 1;
+  var items = slideList.querySelectorAll("li").length;
+  var prev = document.getElementById("prev");
+  var next = document.getElementById("next");
 
-    window.addEventListener("resize", function() {
-    sliderWidth = slider.offsetWidth;
-    });
-
-    var prevSlide = function() {
-    if(count > 1) {
-        count = count - 2;
-      slideList.style.left = "-" + count * sliderWidth + "px";
-        count++;
-    }
-    else if(count = 1) {
-        count = items - 1;
-      slideList.style.left = "-" + count * sliderWidth + "px";
-        count++;
-}
-};
-
-    var nextSlide = function() {
-    if(count < items) {
-      slideList.style.left = "-" + count * sliderWidth + "px";
-        count++;
-}
-    else if(count = items) {
-        slideList.style.left = "0px";
-        count = 1;
-    }
-};
-
-next.addEventListener("click", function() {
-  nextSlide();
+  window.addEventListener("resize", function mu48() {
+  sliderWidth = slider.offsetWidth;
   });
-  
-prev.addEventListener("click", function() {
-  prevSlide();
-  });
-  
-setInterval(function() {
-  nextSlide()
-  }, 3000);
-  
-  };
-  
-window.onload = function() {
-  responsiveSlider();  
+
+  var prevSlide = function mu48() {
+  if(count > 1) {
+      count = count - 2;
+    slideList.style.left = "-" + count * sliderWidth + "px";
+      count++;
   }
+  else if(count = 1) {
+      count = items - 1;
+    slideList.style.left = "-" + count * sliderWidth + "px";
+      count++;
+}
+};
+
+  var nextSlide = function mu48() {
+  if(count < items) {
+    slideList.style.left = "-" + count * sliderWidth + "px";
+      count++;
+}
+  else if(count = items) {
+      slideList.style.left = "0px";
+      count = 1;
+  }
+};
+
+next.addEventListener("click", function mu48() {
+nextSlide();
+});
+
+prev.addEventListener("click", function mu48() {
+prevSlide();
+});
+
+setInterval(function mu48() {
+nextSlide()
+}, 3000);
+
+};
+
+window.onload = function mu48() {
+responsiveSlider();  
+}
 
 
 /*//////////////////asssssshhhhhhhhraaaaaaaaaaaaaaaf//////////////////*/
